@@ -561,9 +561,12 @@ body {
 
 .order-window input:active,
 .order-window select:active,
-.order-window textarea:active {
+.order-window textarea:active,
+.order-window input:focus,
+.order-window select:focus,
+.order-window textarea:focus  {
     background-color: #ffffff;
-    border: none;
+    border: none !important;
 }
 
 
